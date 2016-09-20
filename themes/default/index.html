@@ -23,6 +23,14 @@
           {% endif %}
 
           <p class="marketing-desc">{{ site.marketing_desc }}</p>
+
+          <div class="input">
+            <form action="https://velo-club.app.waitlisted.co/external/reservations" method="POST">
+              <input type="text" class="button" id="email" name="reservation[email]" placeholder="Email Address"><input type="submit" class="button" id="submit" value="SIGN UP">
+            </form>
+          </div>
+
+<!--
           <div class="download-buttons">
             <a
               class="download-btn btn btn-lg"
@@ -37,7 +45,8 @@
               <i class="fa fa-android fa-lg" aria-hidden="true"></i> Google Play
             </a>
             {% endif %}
-          </div>
+          </div> 
+-->
         </div>
       </div>
 

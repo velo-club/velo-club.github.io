@@ -12,7 +12,7 @@ app:
   ios_id: 426826309 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: com.strava # Optional - Enter Android app id like: com.example.app
 
-  icon: # Leave blank to auto-magically populate
+  icon: images/app-icon.png # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -26,7 +26,7 @@ app:
 # Marketing
 #
 marketing_header: Plan your next bike ride. # Optional
-marketing_desc: Velo Club helps you meet other cyclists and plan your next ride. Currently in beta. Sign up for our mailing list to be one of the first to try the app.
+marketing_desc: Velo Club helps you meet other cyclists and plan your next ride. Currently in beta. Sign up for our waitlist to be one of the first people to try the app.
 
 #
 # Social Links
